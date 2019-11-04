@@ -7,3 +7,5 @@
 [gitlog.txt](https://github.com/omacode/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
 
 [komentorivi.txt](https://github.com/omacode/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
+
+Lisää tulossa...
