@@ -1,3 +1,5 @@
+git log --stat | cat
+
 commit ac29414a85288995622fde2c4c51ce09674d4896
 Author: Henri Silvan <henri.silvan@helsinki.fi>
 Date:   Sun Nov 3 23:09:49 2019 +0200
