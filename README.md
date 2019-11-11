@@ -8,4 +8,6 @@
 
 [komentorivi.txt](https://github.com/omacode/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
 
-Lisää on tulossa...
+### Viikko 2
+
+[testikattavuus.png](https://github.com/omacode/ot-harjoitustyo/blob/master/laskarit/viikko2/testikattavuus.png)
