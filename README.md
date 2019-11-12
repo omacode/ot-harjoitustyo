@@ -4,6 +4,8 @@
 
 [vaatimusmäärittely](https://github.com/omacode/ot-harjoitustyo/blob/master/dokumentointi/vaatimusmaarittely.md)
 
+[työaikakirjanpito](https://github.com/omacode/ot-harjoitustyo/blob/master/dokumentointi/tyoaikakirjanpito.md)
+
 ## Tehtävät
 
 ### Viikko 1
