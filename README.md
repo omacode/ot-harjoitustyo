@@ -1,5 +1,9 @@
 # Ohjelmistotekniikka, harjoitustyö
 
+## Dokumentaatio
+
+[vaatimusmäärittely](https://github.com/omacode/ot-harjoitustyo/blob/master/dokumentointi/vaatimusmaarittely.md)
+
 ## Tehtävät
 
 ### Viikko 1
