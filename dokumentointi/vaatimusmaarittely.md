@@ -10,7 +10,7 @@ Alkuun sovelluksella on vain yksi käyttäjärooli eli normaali käyttäjä. My�
 
 ## Käyttöliittymäluonnos
 
-<img src="https://github.com/omacode/ot-harjoitustyo/blob/master/dokumentointi/kuvat/kayttoliittymaluonnos.png" width="750">
+<img src="https://github.com/omacode/ot-harjoitustyo/blob/master/dokumentointi/kuvat/kayttoliittymaluonnos.jpg" width="750">
 
 ## Perusversion tarjoama toiminnallisuus
 
