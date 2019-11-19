@@ -6,14 +6,20 @@
 
 [työaikakirjanpito](https://github.com/omacode/ot-harjoitustyo/blob/master/dokumentointi/tyoaikakirjanpito.md)
 
-## Tehtävät
+## Komentorivitoiminnot
 
-### Viikko 1
+### Testaus
 
-[gitlog.txt](https://github.com/omacode/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
+Testit suoritetaan komennolla
 
-[komentorivi.txt](https://github.com/omacode/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
+```
+mvn test
+```
 
-### Viikko 2
+Testikattavuusraportti luodaan komennolla
 
-[testikattavuus.png](https://github.com/omacode/ot-harjoitustyo/blob/master/laskarit/viikko2/testikattavuus.png)
+```
+mvn jacoco:report
+```
+
+Kattavuusraporttia voi tarkastella avaamalla selaimella tiedosto _target/site/jacoco/index.html_
