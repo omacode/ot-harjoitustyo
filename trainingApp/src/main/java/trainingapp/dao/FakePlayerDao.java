@@ -1,8 +1,7 @@
-package domain;
+package trainingapp.dao;
 
 import java.util.ArrayList;
 import java.util.List;
-import trainingapp.dao.PlayerDao;
 import trainingapp.domain.Player;
 
 public class FakePlayerDao implements PlayerDao {

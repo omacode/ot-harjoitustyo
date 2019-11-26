@@ -33,4 +33,20 @@ public class AssignmentService {
     public void logout() {
         loggedIn = null;
     }
+    
+    public boolean createPlayer(String username, String password, String name) {
+        if (username.length() < 4 || password.length() < 4 || playerDao.findByUsername(username) != null) {
+            return false;
+        }
+        
+        Player player = new Player(username, password, name);
+        
+        try {
+            playerDao.create(player);
+        } catch (Exception e) {
+            return false;
+        }
+        
+        return true;
+    }
 }

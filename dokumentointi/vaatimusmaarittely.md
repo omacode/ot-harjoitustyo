@@ -16,11 +16,12 @@ Alkuun sovelluksella on vain yksi käyttäjärooli eli normaali käyttäjä. My�
 
 ### Ennen kirjautumista
 
-- Käyttäjä voi rekisteröityä sovelluksen käyttäjäksi
-  - Käyttäjätunnuksen tulee olla uniikki ja vähintään 4 merkkiä pitkä
-- Käyttäjä voi kirjautua sisään
-  - Käyttäjän sisään kirjautuminen onnistuu syöttämällä oma käyttäjätunnus kirjautumislomakkeelle
-  - Sovellus ilmoittaa virheellisestä käyttäjätunnuksesta
+- Käyttäjä voi rekisteröityä sovelluksen käyttäjäksi (tehty)
+  - Käyttäjätunnuksen tulee olla uniikki ja vähintään 4 merkkiä pitkä (tehty)
+  - Salasanan tulee olla vähintään 4 merkkiä pitkä (tehty)
+- Käyttäjä voi kirjautua sisään (tehty)
+  - Käyttäjän sisään kirjautuminen onnistuu syöttämällä oma käyttäjätunnus ja salasana kirjautumislomakkeelle (tehty)
+  - Sovellus ilmoittaa virheellisestä käyttäjätunnuksesta ja salasanasta (tehty)
 
 ### Kirjautumisen jälkeen
 

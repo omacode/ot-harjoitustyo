@@ -20,11 +20,54 @@ public class AssignmentServicePlayerTest {
     }
 
     @Test
-    public void existingPlayerCanLogin() {
+    public void existingPlayerCanLogIn() {
         boolean result = assignmentService.login("tester1", "tim1");
         assertTrue(result);
         
-        Player loggedIn = assignmentService.getLoggedPlayer();
-        assertEquals("Tim S", loggedIn.getName());
+        assertEquals("Tim S", assignmentService.getLoggedPlayer().getName());
+    }
+    
+    @Test
+    public void nonExistingPlayerCanLogIn() {
+        boolean result = assignmentService.login("nonexisting", "passw");
+        assertFalse(result);
+        
+        assertEquals(null, assignmentService.getLoggedPlayer());
+    }
+    
+    @Test
+    public void loggedInPlayerCanLogOut() {
+        boolean result = assignmentService.login("tester1", "tim1");
+        assertTrue(result);
+        
+        assignmentService.logout();
+        assertEquals(null, assignmentService.getLoggedPlayer());
+    }
+    
+    @Test
+    public void playerCreationFailsIfUsernameIsTooShort() {
+        boolean result = assignmentService.createPlayer("tes", "tim2", "Tim O");
+        assertFalse(result);
+    }
+    
+    @Test
+    public void playerCreationFailsIfPasswordIsTooShort() {
+        boolean result = assignmentService.createPlayer("tester2", "tim", "Tim O");
+        assertFalse(result);
+    }
+    
+    @Test
+    public void playerCreationFailsIfUsernameNotUnique() {
+        boolean result = assignmentService.createPlayer("tester1", "tim", "Tim O");
+        assertFalse(result);
+    }
+    
+    @Test
+    public void successfullyCreatedPlayerCanLogIn() {
+        boolean result = assignmentService.createPlayer("tester2", "tim2", "Tim O");
+        assertTrue(result);
+        
+        assertTrue(assignmentService.login("tester2", "tim2"));
+        assertEquals("Tim O", assignmentService.getLoggedPlayer().getName());
     }
 }
