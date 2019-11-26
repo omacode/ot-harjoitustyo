@@ -4,9 +4,9 @@
 
 [Vaatimusmäärittely](https://github.com/omacode/ot-harjoitustyo/blob/master/dokumentointi/vaatimusmaarittely.md)
 
-[Arkkitehtuuri](https://github.com/omacode/ot-harjoitustyo/blob/master/dokumentointi/arkkitehtuuri.md)
+[Arkkitehtuurikuvaus](https://github.com/omacode/ot-harjoitustyo/blob/master/dokumentointi/arkkitehtuuri.md)
 
-[työaikakirjanpito](https://github.com/omacode/ot-harjoitustyo/blob/master/dokumentointi/tyoaikakirjanpito.md)
+[Työaikakirjanpito](https://github.com/omacode/ot-harjoitustyo/blob/master/dokumentointi/tyoaikakirjanpito.md)
 
 ## Komentorivitoiminnot
 
