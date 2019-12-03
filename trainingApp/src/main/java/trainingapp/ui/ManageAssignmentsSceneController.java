@@ -8,7 +8,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import trainingapp.domain.AssignmentService;
 
-public class TrainingSceneController implements Initializable {
+public class ManageAssignmentsSceneController implements Initializable {
     
     private MainApp application;
     private AssignmentService assignmentService;
@@ -31,9 +31,9 @@ public class TrainingSceneController implements Initializable {
     }
     
     @FXML
-    private void handleAssignments(ActionEvent event) {
-        System.out.println(assignmentService.getLoggedPlayer().getName() + " wants to manage assignments!");
-        application.setManageAssignmentsScene();
+    private void handlePractice(ActionEvent event) {
+        System.out.println(assignmentService.getLoggedPlayer().getName() + " wants to practice!");
+        application.setTrainingScene();
     }
     
     @Override

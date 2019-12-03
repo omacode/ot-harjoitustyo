@@ -25,13 +25,13 @@ Alkuun sovelluksella on vain yksi käyttäjärooli eli normaali käyttäjä. My�
 
 ### Kirjautumisen jälkeen
 
-- Käyttäjä voi liikkua harjoittelu- ja kysymyksienhallintanäkymän välillä käyttämällä sovelluksen ylälaidassa olevia painikkeita
+- Käyttäjä voi liikkua harjoittelu- ja kysymyksienhallintanäkymän välillä käyttämällä sovelluksen ylälaidassa olevia painikkeita (tehty)
 - Harjoittelunäkymässä käyttäjälle esitetään omia kysymyksiään yksi kerrallaan
   - Vastauksen oikeellisuudesta annetaan palautetta
   - Käyttäjällä on mahdollisuus siirtyä seuraavaan kysymykseen
 - Kysymyksien hallintanäkymässa listataan kaikki kysymykset ja niiden oikeat vastaukset
   - Käyttäjällä on mahdollisuus luoda uusia kysymyksiä
-- Käyttäjä voi kirjautua ulos sovelluksesta
+- Käyttäjä voi kirjautua ulos sovelluksesta (tehty)
 
 ## Jatkokehitysideoita
 
@@ -44,5 +44,5 @@ Ajan salliessa sovellukseen lisätään seuraavia toiminnallisuuksia
 - Käyttäjällä on mahdollisuus valita, että tulevien kysymyksien järjestys arvotaan
 - Kysymyksiä voi poistaa sovelluksesta
 - Kysymyksiä voi piitottaa, jolloin ne eivät näy harjoittelussa
-- Käyttäjiltä vaaditaan salasana kirjautuessa
+- Käyttäjiltä vaaditaan salasana kirjautuessa (tehty)
 - Käyttäjä voi poistaa tunnuksensa ja kaikki syöttämänsä tiedot sovelluksesta

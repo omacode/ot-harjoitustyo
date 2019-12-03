@@ -32,7 +32,7 @@
       <TextField fx:id="username" GridPane.columnIndex="1" GridPane.rowIndex="1" />
       <Label text="Password:" GridPane.rowIndex="2" />
       <PasswordField fx:id="password" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-      <Button mnemonicParsing="false" onAction="#handleLogIn" text="Log in" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Button mnemonicParsing="false" onAction="#handleLogIn" text="Log In" GridPane.columnIndex="1" GridPane.rowIndex="3" />
       <Text fx:id="errorMessage" strokeType="OUTSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
       <Button mnemonicParsing="false" onAction="#handleNewUser" text="Create new user" GridPane.columnIndex="1" GridPane.rowIndex="5" />
    </children>

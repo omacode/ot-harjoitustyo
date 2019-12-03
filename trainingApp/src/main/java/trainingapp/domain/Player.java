@@ -4,6 +4,7 @@ import java.util.Objects;
 
 public class Player {
     
+    private int id;
     private String username;
     private String password;
     private String name;
@@ -12,6 +13,10 @@ public class Player {
         this.username = username;
         this.password = password;
         this.name = name;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getUsername() {

@@ -6,3 +6,5 @@ build
 nbproject
 nbactions.xml
 nb-configuration.xml
+trainingApp.db
+test.db

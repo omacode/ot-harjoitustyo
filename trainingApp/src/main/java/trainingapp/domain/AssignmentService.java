@@ -41,11 +41,7 @@ public class AssignmentService {
         
         Player player = new Player(username, password, name);
         
-        try {
-            playerDao.create(player);
-        } catch (Exception e) {
-            return false;
-        }
+        playerDao.create(player);
         
         return true;
     }
