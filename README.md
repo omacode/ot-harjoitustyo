@@ -13,6 +13,7 @@ Sovelluksen avulla käyttäjät voivat lisätä itselleen tehtäviä/kysymyksiä
 ## Releaset
 
 [Viikko 5](https://github.com/omacode/ot-harjoitustyo/releases/tag/viikko5)
+
 [Viikko 6](https://github.com/omacode/ot-harjoitustyo/releases/tag/viikko6)
 
 ## Komentorivitoiminnot
