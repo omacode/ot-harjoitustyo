@@ -30,7 +30,7 @@ Alkuun sovelluksella on vain yksi käyttäjärooli eli normaali käyttäjä. My�
   - Vastauksen oikeellisuudesta annetaan palautetta
   - Käyttäjällä on mahdollisuus siirtyä seuraavaan kysymykseen
 - Kysymyksien hallintanäkymässa listataan kaikki kysymykset ja niiden oikeat vastaukset
-  - Käyttäjällä on mahdollisuus luoda uusia kysymyksiä
+  - Käyttäjällä on mahdollisuus luoda uusia kysymyksiä (tehty)
 - Käyttäjä voi kirjautua ulos sovelluksesta (tehty)
 
 ## Jatkokehitysideoita

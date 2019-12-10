@@ -8,6 +8,9 @@ import java.sql.Statement;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * Sovelluksen tietokantaa kuvaava luokka
+ */
 public class Database {
     
     private final String databaseAddress;
@@ -17,6 +20,11 @@ public class Database {
         this.createTablesIfNotExists();
     }
     
+    /**
+     * yhteys tietokantaan
+     * 
+     * @return tietokantayhteys 
+     */   
     public Connection getConnection() throws SQLException {
         return DriverManager.getConnection(databaseAddress);
     }

@@ -11,4 +11,6 @@
 | 26.11.| 9    | Käyttäjän sisäänkirjautuminen ja tunnuksien luonti sekä arkkitehtuuri
 | 2.12. | 3    | Tietokannan käyttöönottoa
 | 3.12. | 7    | Hallintanäkymään liikkuminen, sekvenssikaavio (kirjautuminen), testejä
-| yht   | 45   |
+| 9.12. | 3    | Tehtävien noutaminen kannasta
+| 10.12.| 8    | Uuden tehtävän luonti, hallintanäkymä, javadoc, testaus, arkkitehtuurikuvausta
+| yht   | 56   |

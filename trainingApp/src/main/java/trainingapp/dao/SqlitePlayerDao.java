@@ -78,9 +78,8 @@ public class SqlitePlayerDao implements PlayerDao {
     @Override
     public Player create(Player player) {
         
-        Connection conn;
         try {
-            conn = database.getConnection();
+            Connection conn = database.getConnection();
             PreparedStatement stmt = conn.prepareStatement("INSERT INTO Player (username, password, name) VALUES (?, ?, ?)", Statement.RETURN_GENERATED_KEYS);
             stmt.setString(1, player.getUsername());
             stmt.setString(2, player.getPassword());
@@ -98,5 +97,5 @@ public class SqlitePlayerDao implements PlayerDao {
         }
         
         return player;
-    }  
+    }
 }

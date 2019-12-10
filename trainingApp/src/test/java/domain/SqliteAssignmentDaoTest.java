@@ -10,10 +10,12 @@ import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import trainingapp.dao.Database;
+import trainingapp.dao.SqliteAssignmentDao;
 import trainingapp.dao.SqlitePlayerDao;
+import trainingapp.domain.Assignment;
 import trainingapp.domain.AssignmentService;
 
-public class SqlitePlayerDaoTest {
+public class SqliteAssignmentDaoTest {
 
     Database database;
     AssignmentService assignmentService;
@@ -21,7 +23,7 @@ public class SqlitePlayerDaoTest {
     @Before
     public void setUp() {
         database = new Database("jdbc:sqlite:test.db");
-        assignmentService = new AssignmentService(new FakeAssignmentDao(), new SqlitePlayerDao(database));
+        assignmentService = new AssignmentService(new SqliteAssignmentDao(database), new SqlitePlayerDao(database));
         assignmentService.createPlayer("testPlayer", "passw", "tP");
     }
     
@@ -44,10 +46,17 @@ public class SqlitePlayerDaoTest {
     }
     
     @Test
-    public void playerCanLogin() {
-        boolean result = assignmentService.login("testPlayer", "passw");
+    public void canCreateAssignment() {
+        assignmentService.login("testPlayer", "passw");
+        boolean result = assignmentService.createAssignment("Who is there?", "Tim");
         assertTrue(result);
         
-        assertEquals("tP", assignmentService.getLoggedPlayer().getName());
+        assertEquals(1, assignmentService.getLoggedPlayer().getAssignments().size());
+        
+        Assignment a = assignmentService.getLoggedPlayer().getAssignments().get(0);
+        assertEquals(1, a.getId());
+        assertEquals(1, a.getPlayerId());
+        assertEquals("Who is there?", a.getQuestion());
+        assertEquals("Tim", a.getAnswer());
     }
 }

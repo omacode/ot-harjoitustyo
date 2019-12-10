@@ -7,7 +7,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import trainingapp.dao.Database;
-import trainingapp.dao.FakeAssignmentDao;
+
+import trainingapp.dao.SqliteAssignmentDao;
 import trainingapp.dao.SqlitePlayerDao;
 import trainingapp.domain.AssignmentService;
 
@@ -24,7 +25,7 @@ public class MainApp extends Application {
     @Override
     public void init() throws Exception {
         Database database = new Database("jdbc:sqlite:trainingApp.db");
-        assignmentService = new AssignmentService(new FakeAssignmentDao(), new SqlitePlayerDao(database));
+        assignmentService = new AssignmentService(new SqliteAssignmentDao(database), new SqlitePlayerDao(database));
         
         FXMLLoader loginSceneLoader = new FXMLLoader(getClass().getResource("/fxml/LogInScene.fxml"));
         Parent logInPane = loginSceneLoader.load();

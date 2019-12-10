@@ -32,7 +32,6 @@ public class TrainingSceneController implements Initializable {
     
     @FXML
     private void handleAssignments(ActionEvent event) {
-        System.out.println(assignmentService.getLoggedPlayer().getName() + " wants to manage assignments!");
         application.setManageAssignmentsScene();
     }
     

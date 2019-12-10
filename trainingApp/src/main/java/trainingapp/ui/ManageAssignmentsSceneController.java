@@ -6,6 +6,9 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
+import javafx.scene.control.TableView;
+import javafx.scene.control.TextField;
+import trainingapp.domain.Assignment;
 import trainingapp.domain.AssignmentService;
 
 public class ManageAssignmentsSceneController implements Initializable {
@@ -21,8 +24,19 @@ public class ManageAssignmentsSceneController implements Initializable {
         this.assignmentService = assignmentService;
     }
     
+    private void clearForm() {
+        question.clear();
+        answer.clear();
+    }
+    
     @FXML
-    private Button playerButton;
+    private TableView<Assignment> tableView;
+    
+    @FXML
+    private TextField question;
+    
+    @FXML
+    private TextField answer;
     
     @FXML
     private void handleLogOut(ActionEvent event) {
@@ -32,8 +46,13 @@ public class ManageAssignmentsSceneController implements Initializable {
     
     @FXML
     private void handlePractice(ActionEvent event) {
-        System.out.println(assignmentService.getLoggedPlayer().getName() + " wants to practice!");
         application.setTrainingScene();
+    }
+    
+    @FXML
+    private void handleAdd(ActionEvent event) {
+        assignmentService.createAssignment(question.getText(), answer.getText());
+        clearForm();
     }
     
     @Override

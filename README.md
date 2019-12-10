@@ -13,6 +13,7 @@ Sovelluksen avulla käyttäjät voivat lisätä itselleen tehtäviä/kysymyksiä
 ## Releaset
 
 [Viikko 5](https://github.com/omacode/ot-harjoitustyo/releases/tag/viikko5)
+[Viikko 6](https://github.com/omacode/ot-harjoitustyo/releases/tag/viikko6)
 
 ## Komentorivitoiminnot
 
@@ -41,6 +42,16 @@ mvn package
 ```
 
 generoi hakemistoon _target_ suoritettavan jar-tiedoston _TrainingApp-1.0-SNAPSHOT.jar_
+
+### JavaDoc
+
+JavaDoc generoidaan komennolla
+
+```
+mvn javadoc:javadoc
+```
+
+JavaDocia voi katsella avaamalla selaimella tiedosto _target/site/apidocs/index.html_
 
 ### Checkstyle
 
