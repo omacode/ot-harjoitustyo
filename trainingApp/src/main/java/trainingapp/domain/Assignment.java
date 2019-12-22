@@ -1,10 +1,10 @@
 package trainingapp.domain;
 
 /**
- * Yksittäistä tehtävää kuvaava luokka 
+ * Yksittäistä tehtävää kuvaava luokka
  */
 public class Assignment {
-    
+
     private int id;
     private int playerId;
     private String question;
@@ -32,7 +32,7 @@ public class Assignment {
     public int getId() {
         return id;
     }
-    
+
     public void setId(int id) {
         this.id = id;
     }
@@ -49,15 +49,32 @@ public class Assignment {
         return question;
     }
 
+    public void setQuestion(String question) {
+        this.question = question;
+    }
+
     public String getAnswer() {
         return answer;
+    }
+
+    public void setAnswer(String answer) {
+        this.answer = answer;
     }
 
     public String getTip() {
         return tip;
     }
 
+    public void setTip(String tip) {
+        this.tip = tip;
+    }
+
     public String getExplanation() {
         return explanation;
     }
+
+    public void setExplanation(String explanation) {
+        this.explanation = explanation;
+    }
+
 }

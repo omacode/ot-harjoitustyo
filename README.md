@@ -4,9 +4,13 @@ Sovelluksen avulla käyttäjät voivat lisätä itselleen tehtäviä/kysymyksiä
 
 ## Dokumentaatio
 
+[Käyttöohje](https://github.com/omacode/ot-harjoitustyo/blob/master/dokumentointi/kayttoohje.md)
+
 [Vaatimusmäärittely](https://github.com/omacode/ot-harjoitustyo/blob/master/dokumentointi/vaatimusmaarittely.md)
 
 [Arkkitehtuurikuvaus](https://github.com/omacode/ot-harjoitustyo/blob/master/dokumentointi/arkkitehtuuri.md)
+
+[Testausdokumentti](https://github.com/omacode/ot-harjoitustyo/blob/master/dokumentointi/testausdokumentti.md)
 
 [Työaikakirjanpito](https://github.com/omacode/ot-harjoitustyo/blob/master/dokumentointi/tyoaikakirjanpito.md)
 
@@ -15,6 +19,8 @@ Sovelluksen avulla käyttäjät voivat lisätä itselleen tehtäviä/kysymyksiä
 [Viikko 5](https://github.com/omacode/ot-harjoitustyo/releases/tag/viikko5)
 
 [Viikko 6](https://github.com/omacode/ot-harjoitustyo/releases/tag/viikko6)
+
+[Viikko 7](https://github.com/omacode/ot-harjoitustyo/releases/tag/viikko7)
 
 ## Komentorivitoiminnot
 

@@ -1,4 +1,3 @@
-
 package trainingapp.dao;
 
 import java.sql.Connection;
@@ -12,19 +11,19 @@ import java.util.logging.Logger;
  * Sovelluksen tietokantaa kuvaava luokka
  */
 public class Database {
-    
+
     private final String databaseAddress;
-    
+
     public Database(String databaseAddress) {
         this.databaseAddress = databaseAddress;
         this.createTablesIfNotExists();
     }
-    
+
     /**
-     * yhteys tietokantaan
-     * 
-     * @return tietokantayhteys 
-     */   
+     * Yhteys tietokantaan
+     *
+     * @return tietokantayhteys
+     */
     public Connection getConnection() throws SQLException {
         return DriverManager.getConnection(databaseAddress);
     }
@@ -35,10 +34,10 @@ public class Database {
             Statement stmt = conn.createStatement();
             String sql = "CREATE TABLE IF NOT EXISTS Player (id INTEGER PRIMARY KEY, username VARCHAR(30) NOT NULL UNIQUE, password VARCHAR(30) NOT NULL, name VARCHAR(60));";
             stmt.execute(sql);
-            
+
             sql = "CREATE TABLE IF NOT EXISTS Assignment (id INTEGER PRIMARY KEY, player_id INTEGER, question VARCHAR(255) NOT NULL, answer VARCHAR(255) NOT NULL, tip VARCHAR(255), explanation VARCHAR(255), FOREIGN KEY (player_id) REFERENCES Player(id));";
             stmt.execute(sql);
-            
+
             stmt.close();
             conn.close();
         } catch (SQLException ex) {

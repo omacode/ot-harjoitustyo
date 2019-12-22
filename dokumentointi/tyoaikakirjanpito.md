@@ -13,4 +13,6 @@
 | 3.12. | 7    | Hallintanäkymään liikkuminen, sekvenssikaavio (kirjautuminen), testejä
 | 9.12. | 3    | Tehtävien noutaminen kannasta
 | 10.12.| 8    | Uuden tehtävän luonti, hallintanäkymä, javadoc, testaus, arkkitehtuurikuvausta
-| yht   | 56   |
+| 20.12.| 10   | Hallintanäkymän muokkausta ja harjoittelunäkymän luontia.
+| 21.12.| 10   | Harjoittelunäkymän tekemistä, käyttöohjeen luonti sekä readmen ja vaatimusmäärittelyn korjaus
+| yht   | 76   |

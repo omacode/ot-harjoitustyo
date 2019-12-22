@@ -6,36 +6,37 @@ Sovelluksen avulla käyttäjät voivat lisätä itselleen tehtäviä/kysymyksiä
 
 ## Käyttäjät
 
-Alkuun sovelluksella on vain yksi käyttäjärooli eli normaali käyttäjä. Myöhemmin sovellukseen tullaan mahdollisesti lisäämään suuremmilla oikeuksilla varustettu pääkäyttäjä.
+Sovelluksella on vain yksi käyttäjärooli eli normaali käyttäjä.
 
 ## Käyttöliittymäluonnos
 
 <img src="https://github.com/omacode/ot-harjoitustyo/blob/master/dokumentointi/kuvat/kayttoliittymaluonnos.jpg" width="750">
 
-## Perusversion tarjoama toiminnallisuus
+## Toiminnallisuudet
 
 ### Ennen kirjautumista
 
-- Käyttäjä voi rekisteröityä sovelluksen käyttäjäksi (tehty)
-  - Käyttäjätunnuksen tulee olla uniikki ja vähintään 4 merkkiä pitkä (tehty)
-  - Salasanan tulee olla vähintään 4 merkkiä pitkä (tehty)
-- Käyttäjä voi kirjautua sisään (tehty)
-  - Käyttäjän sisään kirjautuminen onnistuu syöttämällä oma käyttäjätunnus ja salasana kirjautumislomakkeelle (tehty)
-  - Sovellus ilmoittaa virheellisestä käyttäjätunnuksesta ja salasanasta (tehty)
+- Käyttäjä voi rekisteröityä sovelluksen käyttäjäksi
+  - Käyttäjätunnuksen tulee olla uniikki ja vähintään 4 merkkiä pitkä
+  - Salasanan tulee olla vähintään 4 merkkiä pitkä
+- Käyttäjä voi kirjautua sisään
+  - Käyttäjän sisään kirjautuminen onnistuu syöttämällä oma käyttäjätunnus ja salasana kirjautumislomakkeelle
+  - Sovellus ilmoittaa virheellisestä käyttäjätunnuksesta ja salasanasta
 
 ### Kirjautumisen jälkeen
 
-- Käyttäjä voi liikkua harjoittelu- ja kysymyksienhallintanäkymän välillä käyttämällä sovelluksen ylälaidassa olevia painikkeita (tehty)
+- Käyttäjä voi liikkua harjoittelu- ja kysymyksienhallintanäkymän välillä käyttämällä sovelluksen ylälaidassa olevia painikkeita
 - Harjoittelunäkymässä käyttäjälle esitetään omia kysymyksiään yksi kerrallaan
+  - Kysymyksen alussa ilmoitetaan kysymyksen numero ja kaikkien kysymyksien lukumäärä
   - Vastauksen oikeellisuudesta annetaan palautetta
   - Käyttäjällä on mahdollisuus siirtyä seuraavaan kysymykseen
-- Kysymyksien hallintanäkymässa listataan kaikki kysymykset ja niiden oikeat vastaukset
-  - Käyttäjällä on mahdollisuus luoda uusia kysymyksiä (tehty)
-- Käyttäjä voi kirjautua ulos sovelluksesta (tehty)
+- Kysymyksien hallintanäkymässa listataan kaikki kirjautuneen käyttäjän kysymykset ja niiden oikeat vastaukset
+  - Käyttäjällä on mahdollisuus luoda uusia kysymyksiä
+- Käyttäjä voi kirjautua ulos sovelluksesta
 
 ## Jatkokehitysideoita
 
-Ajan salliessa sovellukseen lisätään seuraavia toiminnallisuuksia
+Näitä toiminnallisuuksia saatetaan lisätä sovellukseen myöhemmin
 
 - Käyttäjä voi pyytää vinkkiä kysymykseen
 - Käyttäjä saa oikean vastauksensa jälkeen lisätietoja (laajemmat perustelut) oikeasta vastauksesta
@@ -44,5 +45,4 @@ Ajan salliessa sovellukseen lisätään seuraavia toiminnallisuuksia
 - Käyttäjällä on mahdollisuus valita, että tulevien kysymyksien järjestys arvotaan
 - Kysymyksiä voi poistaa sovelluksesta
 - Kysymyksiä voi piitottaa, jolloin ne eivät näy harjoittelussa
-- Käyttäjiltä vaaditaan salasana kirjautuessa (tehty)
 - Käyttäjä voi poistaa tunnuksensa ja kaikki syöttämänsä tiedot sovelluksesta

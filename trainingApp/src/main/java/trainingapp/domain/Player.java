@@ -5,10 +5,10 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * Sovelluksen käyttäjää edustava luokka 
+ * Sovelluksen käyttäjää edustava luokka
  */
 public class Player {
-    
+
     private int id;
     private String username;
     private String password;
@@ -69,5 +69,5 @@ public class Player {
             return false;
         }
         return Objects.equals(this.name, other.name);
-    }   
+    }
 }

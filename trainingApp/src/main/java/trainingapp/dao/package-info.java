@@ -1,5 +1,4 @@
 /**
- * Tietojen pysyväistallennus 
+ * Tietojen pysyväistallennus
  */
-
 package trainingapp.dao;

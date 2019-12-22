@@ -11,6 +11,7 @@
 <?import javafx.scene.layout.Region?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="trainingapp.ui.ManageAssignmentsSceneController">
    <top>
@@ -20,6 +21,11 @@
                <children>
                   <Button mnemonicParsing="false" onAction="#handlePractice" text="Practice" />
                   <Region prefHeight="26.0" prefWidth="165.0" HBox.hgrow="ALWAYS" />
+                  <Text fx:id="user" strokeType="OUTSIDE" strokeWidth="0.0">
+                     <HBox.margin>
+                        <Insets bottom="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Text>
                   <Button mnemonicParsing="false" onAction="#handleLogOut" text="Log Out" />
                </children>
                <VBox.margin>
@@ -32,7 +38,7 @@
    <center>
       <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
          <children>
-            <Label text="Assigments">
+            <Label text="Assignments">
                <VBox.margin>
                   <Insets bottom="8.0" left="8.0" right="8.0" />
                </VBox.margin>
@@ -42,18 +48,17 @@
             </Label>
             <TableView fx:id="tableView">
               <columns>
-                <TableColumn prefWidth="90.0" text="Id" />
-                <TableColumn prefWidth="255.0" text="Question" />
-                  <TableColumn prefWidth="255.0" text="Answer" />
+                <TableColumn fx:id="question" prefWidth="312.0" text="Question" />
+                  <TableColumn fx:id="answer" prefWidth="270.0" text="Answer" />
               </columns>
                <VBox.margin>
                   <Insets left="8.0" right="8.0" />
                </VBox.margin>
             </TableView>
-            <HBox alignment="TOP_RIGHT" spacing="10.0">
+            <HBox spacing="10.0">
                <children>
-                  <TextField fx:id="question" prefWidth="255.0" />
-                  <TextField fx:id="answer" />
+                  <TextField fx:id="questionTF" prefHeight="26.0" prefWidth="312.0" promptText="Question, (min length 4)" />
+                  <TextField fx:id="answerTF" prefHeight="26.0" prefWidth="207.0" promptText="Answer, (min length 1)" />
                   <Button mnemonicParsing="false" onAction="#handleAdd" text="Add" />
                </children>
                <VBox.margin>
