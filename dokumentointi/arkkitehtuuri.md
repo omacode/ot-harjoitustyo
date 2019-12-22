@@ -41,7 +41,7 @@ Luokat on toteutettu DAO-suunnittelumallin mukaisesti. Näin on haluttu helpotta
 
 ### Tietokanta
 
-Sovelluksessa käytetään Sqlite-tietokantaa trainingApp.db, johon luodaa luodaa sovelluksen käynnistyksen yhteydessä taulut Player ja Assignment, mikäli niitä ei ole vielä aiemmin luotu.
+Sovelluksessa käytetään Sqlite-tietokantaa trainingApp.db, johon luodaan sovelluksen käynnistyksen yhteydessä taulut Player ja Assignment, mikäli niitä ei ole vielä aiemmin luotu.
 
 Testit käyttävät omaa Sqlite-tietokantaansa test.db.
 
