@@ -52,4 +52,4 @@ Harjoittelunäkymästä voi siirtyä painamalla Manage assignments -painiketta t
 
 Tässä näkymässä näytetään taulukossa käyttäjän henkilökohtaiset tehtävät. Uusien tehtävien luonti onnistuu syöttämällä tiedot taulukon alapuolella oleviin syötekenttiin ja painamalla Add-painiketta.
 
-Harjoittelunäkymään voi siirtyä painamalla Practice-painiketta ja uloskirkautuminen onnistuu painamalla Log Out -painiketta.
+Harjoittelunäkymään voi siirtyä painamalla Practice-painiketta ja uloskirjautuminen onnistuu painamalla Log Out -painiketta.

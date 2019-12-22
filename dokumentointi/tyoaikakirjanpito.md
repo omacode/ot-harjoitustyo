@@ -15,4 +15,5 @@
 | 10.12.| 8    | Uuden tehtävän luonti, hallintanäkymä, javadoc, testaus, arkkitehtuurikuvausta
 | 20.12.| 10   | Hallintanäkymän muokkausta ja harjoittelunäkymän luontia.
 | 21.12.| 10   | Harjoittelunäkymän tekemistä, käyttöohjeen luonti sekä readmen ja vaatimusmäärittelyn korjaus
-| yht   | 76   |
+| 22.12.| 4    | Arkkitehtuurikuvauksen ja testausdokumentin tekoa
+| yht   | 80   |
