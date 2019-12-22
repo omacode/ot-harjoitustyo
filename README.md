@@ -20,7 +20,7 @@ Sovelluksen avulla käyttäjät voivat lisätä itselleen tehtäviä/kysymyksiä
 
 [Viikko 6](https://github.com/omacode/ot-harjoitustyo/releases/tag/viikko6)
 
-[Viikko 7](https://github.com/omacode/ot-harjoitustyo/releases/tag/viikko7)
+[Loppupalautus](https://github.com/omacode/ot-harjoitustyo/releases/tag/loppupalautus)
 
 ## Komentorivitoiminnot
 
